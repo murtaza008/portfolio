@@ -5,7 +5,17 @@ import SocialLinks from '../common/SocialLinks';
 
 const HeroContent = ({ isVisible }) => {
     const handleDownloadCV = () => {
-        alert('CV download functionality - Add your CV file link here');
+        const fileName = 'Murtaza Mazhar.pdf';
+        const baseUrl = import.meta.env.BASE_URL || '/';
+        const normalizedBaseUrl = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+        const cvUrl = `${normalizedBaseUrl}${encodeURIComponent(fileName)}`;
+
+        const link = document.createElement('a');
+        link.href = cvUrl;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
     };
 
     return (
@@ -30,7 +40,7 @@ const HeroContent = ({ isVisible }) => {
             </div>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start order-3 lg:order-1 lg:col-start-1 -mt-4 lg:-mt-32">
+            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start order-3 lg:order-1 lg:col-start-1 -mt-8 lg:-mt-24">
                 <Button href="#projects" variant="primary">
                     View My Work
                 </Button>
@@ -43,7 +53,7 @@ const HeroContent = ({ isVisible }) => {
             </div>
 
             {/* Social Links */}
-            <div className="order-4 lg:order-1 lg:col-start-1 -mt-2 lg:-mt-22">
+            <div className="order-4 lg:order-1 lg:col-start-1 -mt-2 lg:-mt-16 lg:ml-3">
                 <SocialLinks />
             </div>
         </>

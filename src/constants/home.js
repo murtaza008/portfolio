@@ -1,8 +1,7 @@
 export const ROLES = [
   'MERN Stack Developer',
-  'Data Scientist',
-  'AI Enthusiast',
-  'Full-Stack Developer',
+  'Frontend Developer',
+  'Backend Developer',
 ];
 
 export const BACKGROUND_IMAGE_URL =
@@ -15,7 +14,7 @@ export const PERSONAL_INFO = {
   name: 'Murtaza Mazhar',
   greeting: "Hello, I'm",
   description:
-    'A passionate Software Engineering student at the University of Management and Technology (UMT), Lahore. I specialize in creating modern, user-friendly web applications and innovative digital solutions.',
+    'A passionate Full-Stack Developer specializing in MERN stack applications. I build responsive, user-friendly, and scalable web solutions that solve real-world problems. Explore my work to see how ideas are transformed into interactive digital experiences.',
 };
 
 export const TECH_ICONS = [

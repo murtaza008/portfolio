@@ -43,7 +43,7 @@ const Footer = () => {
           <FooterLinks />
         </div>
         <div className="mt-8 text-center text-gray-500">
-          © 2025 Murtaza Mazhar. All rights reserved.
+          © 2026 Murtaza Mazhar. All rights reserved.
         </div>
       </div>
     </footer>

@@ -21,24 +21,6 @@ export const SKILLS = [
     color: 'green',
   },
   {
-    id: 'datascience',
-    icon: 'fas fa-chart-line',
-    title: 'Data Science',
-    description:
-      'Analyzing complex datasets and building predictive models using Python, pandas, and machine learning.',
-    proficiency: 80,
-    color: 'purple',
-  },
-  {
-    id: 'ai-ml',
-    icon: 'fas fa-brain',
-    title: 'AI & Machine Learning',
-    description:
-      'Developing intelligent solutions using TensorFlow, scikit-learn, and deep learning frameworks.',
-    proficiency: 75,
-    color: 'red',
-  },
-  {
     id: 'database',
     icon: 'fas fa-database',
     title: 'Database Management',
@@ -46,15 +28,6 @@ export const SKILLS = [
       'Designing and optimizing databases with MongoDB, PostgreSQL, and implementing efficient data structures.',
     proficiency: 85,
     color: 'indigo',
-  },
-  {
-    id: 'cloud',
-    icon: 'fas fa-cloud',
-    title: 'Cloud & DevOps',
-    description:
-      'Deploying applications on AWS, Docker containerization, and CI/CD pipeline implementation.',
-    proficiency: 70,
-    color: 'orange',
   },
 ];
 

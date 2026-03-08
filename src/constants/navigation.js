@@ -4,7 +4,6 @@ export const NAVIGATION_LINKS = [
   { id: 'experience', label: 'Experience', href: '#experience' },
   { id: 'skills', label: 'Skills', href: '#skills' },
   { id: 'projects', label: 'Projects', href: '#projects' },
-  { id: 'services', label: 'Services', href: '#services' },
   { id: 'contact', label: 'Contact', href: '#contact' },
 ];
 

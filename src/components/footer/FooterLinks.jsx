@@ -1,24 +1,8 @@
-import { FOOTER_SERVICES } from '../../constants/footer';
 import { CONTACT_INFO } from '../../constants/social';
 
 const FooterLinks = () => {
   return (
     <>
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Services</h4>
-        <ul className="space-y-2 text-gray-400">
-          {FOOTER_SERVICES.map((service, index) => (
-            <li key={index}>
-              <a
-                href={service.href}
-                className="hover:text-white transition-colors duration-300 cursor-pointer"
-              >
-                {service.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
       <div>
         <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
         <div className="space-y-2 text-gray-400">
