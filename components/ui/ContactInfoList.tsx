@@ -15,7 +15,7 @@ export default function ContactInfoList({
     },
     {
       icon: "ri-phone-line",
-      label: "+92 326 4554062",
+      label: "+92 (326) 4554062",
       href: "tel:+92 326 4554062",
     },
     {
