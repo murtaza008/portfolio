@@ -6,8 +6,8 @@ import ContactDetails from "./contact/ContactDetails";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-12 bg-[#f8f5f0] relative overflow-hidden">
-      <div className="absolute top-0 left-1/2 w-[400px] h-[400px] bg-[#c8a97e]/8 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+    <section id="contact" className="py-12 bg-white relative overflow-hidden">
+      <div className="absolute top-0 left-1/2 w-[400px] h-[400px] bg-[#c8a97e]/6 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-10 transition-all duration-400 opacity-0 translate-y-10">
           <SectionTag>Let&apos;s Connect</SectionTag>

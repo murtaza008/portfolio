@@ -2,13 +2,13 @@ import { EducationItemType } from "../types";
 
 export const educationData: EducationItemType[] = [
   {
-    id: "uc-berkeley",
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of California, Berkeley",
-    period: "2019 – 2023",
-    location: "Berkeley, CA",
+    id: "umt-lahore",
+    degree: "Bachelor of Science in Software Engineering",
+    institution: "University of Management & Technology",
+    period: "2022 – 2026",
+    location: "Lahore, Pakistan",
     bullets: [
-      "Specialized in Software Engineering and Web Technologies. Dean's List for 3 consecutive years."
+      "Specialized in Software Engineering with focus on full-stack web development and AI-integrated systems."
     ],
     delayMs: 0
   }

@@ -8,17 +8,17 @@ export default function ContactInfoList({ variant = "contact" }: ContactInfoList
   const items = [
     {
       icon: "ri-mail-line",
-      label: "alex.johnson@email.com",
-      href: "mailto:alex.johnson@email.com",
+      label: "murtazaaa7798@email.com",
+      href: "mailto:murtazaaa786@gmail.com",
     },
     {
       icon: "ri-phone-line",
-      label: "+1 (555) 234-5678",
-      href: "tel:+1 (555) 234-5678",
+      label: "+92 326 4554078",
+      href: "tel:+92 326 4554078",
     },
     {
       icon: "ri-map-pin-line",
-      label: "San Francisco, CA",
+      label: "Lahore, Pakistan",
       href: "#",
     },
   ];

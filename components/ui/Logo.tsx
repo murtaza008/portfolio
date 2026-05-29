@@ -9,7 +9,7 @@ export default function Logo({ variant = "dark", className = "flex items-center 
   if (variant === "footer") {
     return (
       <div className={className}>
-        <div className="w-9 h-9 rounded-xl bg-[#c8a97e] flex items-center justify-center text-white font-black text-sm font-['Syne']">
+        <div className="w-10 h-10 rounded-xl bg-[#c8a97e] flex items-center justify-center text-white font-black text-sm font-['Syne']">
           MM
         </div>
         <span className="font-['Syne'] font-bold text-lg text-white">

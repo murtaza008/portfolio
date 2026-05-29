@@ -20,11 +20,11 @@ export default function TypewriterText() {
     if (isDeleting) {
       timeoutId = setTimeout(() => {
         setCurrentText(role.substring(0, currentText.length - 1));
-      }, 50); // Deleting speed
+      }, 20); // Deleting speed
     } else {
       timeoutId = setTimeout(() => {
         setCurrentText(role.substring(0, currentText.length + 1));
-      }, 100); // Typing speed
+      }, 40); // Typing speed
     }
 
     if (!isDeleting && currentText === role) {

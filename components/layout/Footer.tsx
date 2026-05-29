@@ -10,13 +10,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div className="md:col-span-2">
             <Logo variant="footer" className="flex items-center gap-2.5 mb-4" />
-            
+
             <p className="text-white/35 text-sm leading-relaxed max-w-xs mb-6">
               Crafting high-performance digital experiences with the MERN stack. Open
               to exciting opportunities.
             </p>
-            
-            <SocialLinks 
+
+            <SocialLinks
               containerClassName="flex gap-3"
               linkClassName="cursor-pointer w-9 h-9 flex items-center justify-center rounded-lg border border-white/10 text-white/40 hover:text-[#c8a97e] hover:border-[#c8a97e]/40 transition-all duration-300"
               iconClassName="text-base"
@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-white/8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/25 text-xs">
-            © 2026 Alex Johnson. All rights reserved.
+            © 2026 Murtaza Mazhar. All rights reserved.
           </p>
           <p className="text-white/25 text-xs">Built with React &amp; TailwindCSS</p>
         </div>

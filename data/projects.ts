@@ -2,69 +2,119 @@ import { Project } from "../types";
 
 export const projectsData: Project[] = [
   {
-    id: "shopnest",
-    title: "ShopNest E-Commerce Platform",
-    description: "A full-featured e-commerce platform with real-time inventory, Stripe payments, admin dashboard, and JWT authentication. Handles 10k+ concurrent users.",
-    imageUrl: "https://readdy.ai/api/search-image?query=modern%20e-commerce%20web%20application%20dashboard%20with%20product%20listings%2C%20clean%20minimal%20UI%2C%20dark%20theme%20with%20teal%20accents%2C%20professional%20software%20interface%20screenshot&width=800&height=500&seq=proj1&orientation=landscape",
-    tags: ["React", "Node.js", "MongoDB", "Stripe", "Redux", "Express"],
+    id: "ai-ecommerce",
+    title: "AI E-Commerce Store",
+    description:
+      "A full-featured AI-powered e-commerce platform with semantic product search, Gemini AI shopping assistant, Stripe payments, Redis-based cart management, and a complete admin dashboard with analytics.",
+    imageUrl: "/assets/p1.png",
+    tags: [
+      "Next.js 16",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe",
+      "Upstash Redis",
+      "Gemini API"
+    ],
     type: "Full Stack",
-    demoUrl: "#",
-    codeUrl: "#",
+    demoUrl: "https://ai-ecommerce-two.vercel.app/",
+    codeUrl: "https://github.com/murtaza008/ai-ecommerce",
     delayMs: 0
   },
   {
-    id: "taskflow",
-    title: "TaskFlow Project Manager",
-    description: "Real-time collaborative project management tool with drag-and-drop boards, team chat, file uploads, and role-based access control.",
-    imageUrl: "https://readdy.ai/api/search-image?query=project%20management%20kanban%20board%20web%20app%20with%20drag%20drop%20cards%2C%20dark%20minimal%20interface%2C%20task%20tracking%20software%20UI%2C%20professional%20clean%20design&width=800&height=500&seq=proj2&orientation=landscape",
-    tags: ["React", "Socket.io", "Node.js", "MongoDB", "TypeScript"],
+    id: "ai-job-board",
+    title: "AI-Powered Job Board & Marketplace",
+    description:
+      "An AI-driven job marketplace featuring resume parsing, intelligent job match scoring, AI-generated cover letters, Stripe-powered job postings, and multi-role authentication for employers and candidates.",
+    imageUrl: "/assets/p2.png",
+    tags: [
+      "Next.js 16",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe",
+      "Clerk",
+      "Gemini API"
+    ],
     type: "Full Stack",
-    demoUrl: "#",
-    codeUrl: "#",
+    demoUrl: "https://ai-job-board-eta.vercel.app/",
+    codeUrl: "https://github.com/murtaza008/ai-job-board",
     delayMs: 90
   },
   {
-    id: "devconnect",
-    title: "DevConnect Social Network",
-    description: "A developer-focused social platform with GitHub integration, code snippet sharing, job board, and real-time notifications.",
-    imageUrl: "https://readdy.ai/api/search-image?query=social%20network%20web%20application%20for%20developers%2C%20profile%20cards%2C%20code%20snippets%2C%20dark%20theme%20modern%20UI%2C%20professional%20developer%20community%20platform&width=800&height=500&seq=proj3&orientation=landscape",
-    tags: ["React", "Express", "MongoDB", "GitHub API", "JWT"],
-    type: "Full Stack",
-    demoUrl: "#",
-    codeUrl: "#",
+    id: "driver-monitoring-system",
+    title: "Driver Monitoring System",
+    description:
+      "An AI-powered fleet safety platform frontend with real-time driver risk monitoring, violation tracking, facial recognition integration, safety reports, and analytics dashboards for fleet managers.",
+    imageUrl: "/assets/p3.png",
+    tags: [
+      "React.js",
+      "Firebase",
+      "TensorFlow Lite",
+      "MediaPipe",
+      "Cloudinary",
+      "AI"
+    ],
+    type: "Frontend",
+    demoUrl: "https://murtaza008.github.io/driver-monitoring-system-frontend/",
+    codeUrl: "https://github.com/murtaza008/driver-monitoring-system-frontend",
     delayMs: 180
   },
   {
-    id: "cryptotrack",
-    title: "CryptoTrack Dashboard",
-    description: "Real-time cryptocurrency tracking dashboard with live price charts, portfolio management, price alerts, and market analysis.",
-    imageUrl: "https://readdy.ai/api/search-image?query=cryptocurrency%20trading%20dashboard%20with%20live%20charts%20graphs%2C%20dark%20theme%20financial%20data%20visualization%2C%20modern%20fintech%20web%20app%20interface&width=800&height=500&seq=proj4&orientation=landscape",
-    tags: ["React", "Chart.js", "WebSocket", "CoinGecko API", "TypeScript"],
-    type: "Frontend",
-    demoUrl: "#",
-    codeUrl: "#",
+    id: "interview-ai-assistant",
+    title: "Interview AI Assistant",
+    description:
+      "An AI-powered interview preparation platform with secure JWT authentication, resume parsing, PDF text extraction, and personalized interview assistance built using the MERN stack.",
+    imageUrl: "/assets/p4.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "MERN"
+    ],
+    type: "Full Stack",
+    demoUrl: "https://ai-study-planner-frontend-kappa.vercel.app/",
+    codeUrl: "https://github.com/murtaza008/AI-Study-Planner-frontend",
     delayMs: 270
   },
   {
-    id: "medibook",
-    title: "MediBook Appointment System",
-    description: "Healthcare appointment booking system with doctor profiles, availability calendar, video consultations, and automated email reminders.",
-    imageUrl: "https://readdy.ai/api/search-image?query=healthcare%20appointment%20booking%20web%20application%2C%20medical%20dashboard%2C%20clean%20white%20minimal%20UI%2C%20doctor%20patient%20management%20system%20interface&width=800&height=500&seq=proj5&orientation=landscape",
-    tags: ["React", "Node.js", "MongoDB", "Twilio", "Nodemailer"],
+    id: "trtc-chat-app",
+    title: "TRTC Real-Time Chat Application",
+    description:
+      "A real-time chat application with secure authentication, persistent user management, Tencent Cloud Chat integration, and dynamic UserSig generation for live messaging features.",
+    imageUrl: "/assets/p5.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tencent Cloud",
+      "JWT"
+    ],
     type: "Full Stack",
-    demoUrl: "#",
-    codeUrl: "#",
+    demoUrl: "https://chat-app-frontend-indol-nu.vercel.app/login",
+    codeUrl: "https://github.com/murtaza008/chat-app-frontend",
     delayMs: 360
   },
   {
-    id: "blogcraft",
-    title: "BlogCraft CMS Platform",
-    description: "Headless CMS with rich text editor, SEO optimization, multi-author support, analytics dashboard, and REST/GraphQL APIs.",
-    imageUrl: "https://readdy.ai/api/search-image?query=content%20management%20system%20CMS%20web%20application%2C%20blog%20editor%20interface%2C%20dark%20minimal%20design%2C%20admin%20dashboard%20with%20analytics%20charts&width=800&height=500&seq=proj6&orientation=landscape",
-    tags: ["Node.js", "GraphQL", "MongoDB", "React", "AWS S3"],
-    type: "Backend",
-    demoUrl: "#",
-    codeUrl: "#",
+    id: "taskflow-task-manager",
+    title: "TaskFlow Task Manager",
+    description:
+      "A full-stack task management system featuring authentication, dashboards, CRUD operations, advanced filtering and sorting, and efficient server-state handling with React Query.",
+    imageUrl: "/assets/p6.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "React Query",
+      "MERN"
+    ],
+    type: "Full Stack",
+    demoUrl: "https://taskflow-frontend-rouge-xi.vercel.app",
+    codeUrl: "https://github.com/murtaza008/taskflow-frontend",
     delayMs: 450
   }
 ];

@@ -41,14 +41,3 @@ export interface EducationItemType {
   bullets: string[];
   delayMs: number;
 }
-
-export interface CertificationItemType {
-  id: string;
-  title: string;
-  issuer: string;
-  year: string;
-  verifyUrl: string;
-  iconClass: string;
-  color: string;
-  delayMs: number;
-}

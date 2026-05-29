@@ -2,18 +2,18 @@ import { ExperienceItemType } from "../types";
 
 export const experienceData: ExperienceItemType[] = [
   {
-    id: "tech-nova",
-    role: "Junior MERN Stack Developer",
-    company: "TechNova Solutions",
-    period: "Jan 2024 – Present",
-    location: "San Francisco, CA (Remote)",
+    id: "optimusfox",
+    role: "Frontend Developer Intern",
+    company: "OptimusFox",
+    period: "Jun 2025 – Aug 2025",
+    location: "Lahore, Pakistan",
     bullets: [
-      "Developed and maintained 5+ full-stack web applications using React, Node.js, and MongoDB serving 50k+ users",
-      "Reduced API response time by 40% through query optimization and Redis caching implementation",
-      "Collaborated with UI/UX team to implement pixel-perfect responsive designs using Tailwind CSS",
-      "Integrated third-party APIs including Stripe, Twilio, and AWS S3 for production applications"
+      "Built and optimized production-grade UI components using React.js with advanced patterns including custom hooks and compound components",
+      "Implemented server-state management using React Query (TanStack Query), reducing redundant API calls and improving data-fetching performance",
+      "Integrated RESTful APIs in collaboration with backend developers to ensure seamless data flow across the application",
+      "Participated in code reviews, sprint planning, and Agile development workflows within a professional team environment"
     ],
-    tags: ["React", "Node.js", "MongoDB", "Redis", "AWS", "Docker"],
+    tags: ["React.js", "React Query", "REST APIs", "Agile", "Git"],
     delayMs: 0
   }
 ];

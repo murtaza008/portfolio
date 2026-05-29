@@ -15,19 +15,14 @@ export default function SocialLinks({
 }: SocialLinksProps) {
   const links = [
     {
-      url: "https://github.com/alexjohnson",
+      url: "https://github.com/murtaza008",
       icon: "ri-github-fill",
       label: "GitHub",
     },
     {
-      url: "https://linkedin.com/in/alexjohnson",
+      url: "https://www.linkedin.com/in/murtaza-mazhar-04a02b19c",
       icon: "ri-linkedin-fill",
       label: "LinkedIn",
-    },
-    {
-      url: "https://twitter.com/alexjohnson",
-      icon: "ri-twitter-x-fill",
-      label: "Twitter",
     },
   ];
 
@@ -43,7 +38,9 @@ export default function SocialLinks({
           className={linkClassName}
         >
           <i className={`${link.icon} ${iconClassName}`}></i>
-          {showLabels && <span className="text-xs font-medium">{link.label}</span>}
+          {showLabels && (
+            <span className="text-xs font-medium">{link.label}</span>
+          )}
         </a>
       ))}
     </div>

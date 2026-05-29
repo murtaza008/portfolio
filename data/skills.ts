@@ -42,13 +42,13 @@ export const skillCategories: SkillCategoryType[] = [
     delayMs: 240
   },
   {
-    id: "mobile",
-    title: "Mobile & PWA",
-    iconClass: "ri-smartphone-line",
+    id: "ai-integrations",
+    title: "AI & Integrations",
+    iconClass: "ri-robot-line",
     iconBgColor: "rgba(199, 125, 255, 0.094)",
     iconColor: "rgb(199, 125, 255)",
-    skills: ["React Native", "PWA", "Responsive Design", "Expo"],
-    proficiency: 72,
+    skills: ["Vercel AI SDK", "Gemini API", "Stripe", "Cloudinary", "Firebase FCM", "TensorFlow Lite"],
+    proficiency: 75,
     delayMs: 320
   },
   {
@@ -57,13 +57,14 @@ export const skillCategories: SkillCategoryType[] = [
     iconClass: "ri-bug-line",
     iconBgColor: "rgba(255, 159, 67, 0.094)",
     iconColor: "rgb(255, 159, 67)",
-    skills: ["Jest", "React Testing Library", "Cypress", "Postman", "Swagger"],
+    skills: ["Jest", "React Testing Library", "Zod", "Postman", "Swagger"],
     proficiency: 75,
     delayMs: 400
   }
 ];
 
 export const familiarSkills: string[] = [
-  "Webpack", "Babel", "ESLint", "Prettier", "Nginx", "PM2", 
-  "Cloudinary", "SendGrid", "Passport.js", "Multer", "Zod", "Yup"
+  "Prisma ORM", "Zod", "NextAuth",
+  "Clerk", "Resend", "Upstash Redis", "Shadcn/ui",
+  "Jira", "Postman", "ESLint", "Prettier",
 ];

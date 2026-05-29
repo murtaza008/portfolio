@@ -8,7 +8,7 @@ export default function HeroMobileContent() {
   return (
     <div className="flex lg:hidden flex-col items-center w-full pt-24 pb-16 gap-0">
       <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/80 backdrop-blur-sm border border-stone-200 mb-5 transition-all duration-500 opacity-100 translate-y-0">
-        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span className="w-1.5 h-1.5 rounded-full bg-emerald-800 animate-pulse"></span>
         <span className="text-stone-600 text-xs font-semibold tracking-widest uppercase">
           Available for Work
         </span>
@@ -18,7 +18,7 @@ export default function HeroMobileContent() {
           Hi, I&apos;m
         </span>
       </div>
-      
+
       <HeroVisuals isMobile={true} />
 
       <div className="text-center mb-4 transition-all duration-500 opacity-100 translate-y-0">

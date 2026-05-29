@@ -25,8 +25,9 @@ const pacifico = Pacifico({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Johnson - Full Stack Engineer",
-  description: "Portfolio of Alex Johnson",
+  title: "Murtaza Mazhar - Full Stack Engineer",
+  description:
+    "Portfolio of Murtaza Mazhar, a full stack engineer specializing in web development and software engineering.",
 };
 
 export default function RootLayout({
@@ -37,10 +38,19 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css"
+        />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${pacifico.variable} antialiased bg-[#f8f5f0] text-stone-600 font-sans`} suppressHydrationWarning>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${pacifico.variable} antialiased bg-[#f8f5f0] text-stone-600 font-sans`}
+        suppressHydrationWarning
+      >
         <ScrollObserver />
         {children}
       </body>

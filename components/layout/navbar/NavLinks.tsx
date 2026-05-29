@@ -8,7 +8,7 @@ interface NavLinksProps {
 }
 
 export default function NavLinks({ activeSection, isMobile = false, onMobileLinkClick }: NavLinksProps) {
-  const sections = ["home", "about", "skills", "projects", "experience", "education", "certifications", "contact"];
+  const sections = ["home", "about", "skills", "projects", "experience", "education", "contact"];
 
   const getLinkClasses = (section: string) => {
     return activeSection === section

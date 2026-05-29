@@ -23,7 +23,7 @@ export default function EducationItem({ item }: { item: EducationItemType }) {
               <i className="ri-calendar-line"></i>{item.period}
             </span>
             <span className="flex items-center gap-1.5 text-emerald-600 text-sm font-semibold">
-              <i className="ri-award-line"></i>3.8 / 4.0
+              <i className="ri-award-line"></i>3.3 / 4.0
             </span>
           </div>
           {item.bullets.map((bullet, i) => (

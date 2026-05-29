@@ -29,30 +29,24 @@ export default function About() {
               <span className="text-[#a07850]">&amp; Problem Solver</span>
             </h2>
             <p className="text-stone-500 leading-relaxed mb-4 text-[14px]">
-              I&apos;m a dedicated MERN Stack Developer with a strong foundation
-              in building scalable, performant web applications. With hands-on
-              experience across the full development lifecycle, I specialize in
-              creating seamless user experiences backed by robust server-side
-              architecture.
+              I&apos;m a dedicated full-stack developer with hands-on experience building scalable, performant web applications across the complete development lifecycle. I specialize in creating seamless user experiences backed by robust server-side architecture using the MERN stack and Next.js, with a strong focus on AI-integrated systems.
             </p>
             <p className="text-stone-500 leading-relaxed mb-6 text-[14px]">
-              Currently seeking an Associate Software Engineer role where I can
-              contribute to impactful products, grow alongside talented teams,
-              and continue pushing the boundaries of what&apos;s possible with
-              modern web technologies.
+              Currently seeking an Associate Software Engineer role where I can contribute to impactful products, grow alongside talented teams, and continue pushing the boundaries of what's possible with modern web technologies.
             </p>
-            
+
             <AboutDetails />
 
             <a
-              href="#"
+              href="/assets/Murtaza%20Mazhar.pdf"
+              download="Murtaza-Mazhar-Resume.pdf"
               className="cursor-pointer inline-flex items-center gap-2 px-5 py-2.5 bg-[#1a1a1a] text-white font-semibold rounded-xl hover:bg-[#a07850] transition-all duration-300 hover:scale-105 whitespace-nowrap text-sm"
             >
               <i className="ri-download-line"></i> Download Resume
             </a>
           </div>
         </div>
-        
+
         <AboutStats />
 
       </div>

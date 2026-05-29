@@ -38,7 +38,7 @@ export default function Projects() {
         </div>
         <div className="mt-8 text-center transition-all duration-400 opacity-0 translate-y-6">
           <a
-            href="https://github.com/alexjohnson"
+            href="https://github.com/murtaza008"
             target="_blank"
             rel="nofollow noreferrer"
             className="cursor-pointer inline-flex items-center gap-2 px-6 py-3 bg-[#1a1a1a] text-white font-semibold rounded-xl hover:bg-[#a07850] transition-all duration-300 whitespace-nowrap text-sm"
