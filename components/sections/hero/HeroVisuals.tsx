@@ -25,7 +25,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
             icon="ri-nodejs-line"
             bgColor="rgb(237, 247, 237)"
             iconColor="rgb(104, 160, 99)"
-            animationDelay="0.4s"
+            animationDelay="0.2s"
             animationClass="animate-float-down"
             size="sm"
           />
@@ -34,16 +34,16 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
             icon="ri-database-2-line"
             bgColor="rgb(237, 247, 236)"
             iconColor="rgb(77, 179, 61)"
-            animationDelay="0.8s"
+            animationDelay="0.4s"
             animationClass="animate-float-up"
             size="sm"
           />
         </div>
         <div className="relative w-40 h-52 rounded-2xl overflow-hidden border-2 border-stone-200 flex-shrink-0">
           <img
-            alt="Alex Johnson - MERN Stack Developer"
+            alt="Murtaza Mazhar - MERN Stack Developer"
             className="w-full h-full object-cover object-top"
-            src="https://readdy.ai/api/search-image?query=professional%20young%20male%20software%20developer%20portrait%2C%20confident%20friendly%20expression%2C%20smart%20casual%20clothing%2C%20clean%20light%20studio%20background%2C%20high%20quality%20professional%20headshot%2C%20warm%20lighting&width=640&height=800&seq=herophoto1&orientation=portrait"
+            src={meImage.src}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-900/20 via-transparent to-transparent"></div>
         </div>
@@ -53,7 +53,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
             icon="ri-nextjs-line"
             bgColor="rgb(254, 252, 232)"
             iconColor="rgb(200, 160, 0)"
-            animationDelay="0.2s"
+            animationDelay="0.1s"
             animationClass="animate-float-down"
             size="sm"
           />
@@ -62,7 +62,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
             icon="ri-code-s-slash-line"
             bgColor="rgb(253, 246, 238)"
             iconColor="rgb(160, 120, 80)"
-            animationDelay="0.6s"
+            animationDelay="0.3s"
             animationClass="animate-float-up"
             size="sm"
           />
@@ -71,7 +71,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
             icon="ri-git-branch-line"
             bgColor="rgb(254, 240, 238)"
             iconColor="rgb(240, 80, 50)"
-            animationDelay="1s"
+            animationDelay="0.5s"
             animationClass="animate-float-down"
             size="sm"
           />
@@ -96,7 +96,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
           icon="ri-nodejs-line"
           bgColor="rgb(237, 247, 237)"
           iconColor="rgb(104, 160, 99)"
-          animationDelay="0.5s"
+          animationDelay="0.2s"
           animationClass="animate-float-down"
         />
         <FloatingTechIcon
@@ -104,7 +104,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
           icon="ri-database-2-line"
           bgColor="rgb(237, 247, 236)"
           iconColor="rgb(77, 179, 61)"
-          animationDelay="1s"
+          animationDelay="0.4s"
           animationClass="animate-float-up"
         />
       </div>
@@ -122,7 +122,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
           icon="ri-nextjs-line"
           bgColor="rgb(254, 252, 232)"
           iconColor="rgb(200, 160, 0)"
-          animationDelay="0.25s"
+          animationDelay="0.1s"
           animationClass="animate-float-down"
         />
         <FloatingTechIcon
@@ -130,7 +130,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
           icon="ri-code-s-slash-line"
           bgColor="rgb(253, 246, 238)"
           iconColor="rgb(160, 120, 80)"
-          animationDelay="0.75s"
+          animationDelay="0.3s"
           animationClass="animate-float-up"
         />
         <FloatingTechIcon
@@ -138,7 +138,7 @@ export default function HeroVisuals({ isMobile = false }: HeroVisualsProps) {
           icon="ri-git-branch-line"
           bgColor="rgb(254, 240, 238)"
           iconColor="rgb(240, 80, 50)"
-          animationDelay="1.25s"
+          animationDelay="0.5s"
           animationClass="animate-float-down"
         />
       </div>

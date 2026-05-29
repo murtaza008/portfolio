@@ -47,7 +47,7 @@ export default function Footer() {
           <p className="text-white/25 text-xs">
             © 2026 Murtaza Mazhar. All rights reserved.
           </p>
-          <p className="text-white/25 text-xs">Built with React &amp; TailwindCSS</p>
+
         </div>
       </div>
     </footer>
