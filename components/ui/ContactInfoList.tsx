@@ -4,17 +4,19 @@ interface ContactInfoListProps {
   variant?: "contact" | "footer";
 }
 
-export default function ContactInfoList({ variant = "contact" }: ContactInfoListProps) {
+export default function ContactInfoList({
+  variant = "contact",
+}: ContactInfoListProps) {
   const items = [
     {
       icon: "ri-mail-line",
-      label: "murtazaaa7798@email.com",
-      href: "mailto:murtazaaa786@gmail.com",
+      label: "murtazaaa7798@gmail.com",
+      href: "mailto:murtazaaa7798@gmail.com",
     },
     {
       icon: "ri-phone-line",
-      label: "+92 326 4554078",
-      href: "tel:+92 326 4554078",
+      label: "+92 326 4554062",
+      href: "tel:+92 326 4554062",
     },
     {
       icon: "ri-map-pin-line",
@@ -27,7 +29,10 @@ export default function ContactInfoList({ variant = "contact" }: ContactInfoList
     return (
       <ul className="space-y-3">
         {items.map((item, index) => (
-          <li key={index} className="flex items-center gap-2 text-white/35 text-sm">
+          <li
+            key={index}
+            className="flex items-center gap-2 text-white/35 text-sm"
+          >
             <i className={`${item.icon} text-[#c8a97e] shrink-0`}></i>
             <span className="truncate">{item.label}</span>
           </li>
